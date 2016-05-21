@@ -40,9 +40,21 @@ nav {
   text-align: center;
 }
 
+nav#links{
+  position: relative;
+  bottom: -190px;
+  right: 370px;
+}
+
 * {
   color: white;
   font-size: 20px;
   font-style: bold;
   font-family: Times;
+}
+
+hr{
+  position: relative;
+  bottom: -250px;
+  right: 370px;
 }
