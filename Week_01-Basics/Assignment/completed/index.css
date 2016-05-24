@@ -11,9 +11,8 @@ h1 {
   color: gray;
   margin-top: 0;
   font-size: 100px;
-  display: block;
   position: absolute;
-  top: 17px;
+  top: 45px;
   padding-left: 2px;
   float: left;
 }
@@ -23,8 +22,8 @@ h2 {
   font-style: cursive; 
   color: gray; 
   position: absolute;
-  left: 20px;
-  top: 120px;
+  left: 30px;
+  top: 135px;
 }
 
 p#headshot {
@@ -37,14 +36,14 @@ p#intro {
   font-size: 25px; 
   color: #515A5A; 
   font-family: sans-serif; 
-  position: absolute;
-  bottom: 100px;
-  right: 370px;
+  margin-top: 250px;
+  margin-bottom: 300px;
+  text-align: center;
 }
 
 nav#links{
   position: absolute;
-  bottom: -50px;
+  top: 100px;
   right: 200px;
 }
 
@@ -53,5 +52,12 @@ nav#links{
   font-size: 20px;
   font-style: bold;
   font-family: sans-serif;
+}
+
+hr {
+  color: #ffffff;
+  border-width: 5px;
+  margin-bottom: 0;
+  margin-top: 10;
 }
 
