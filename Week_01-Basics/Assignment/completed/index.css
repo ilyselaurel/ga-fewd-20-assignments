@@ -1,63 +1,68 @@
 body {
   background-color: pink;
+  color: white;
+  font-size: 20px;
+  font-style: bold;
+  font-family: sans-serif;
+  padding: 30px;
 }
 
 nav {
   font-family: sans-serif;
 }
 
+header {
+  border-bottom: 10px solid #f2f2f2;
+}
+
 h1 {
   font-family: sans-serif;
   color: gray;
-  margin-top: 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
   font-size: 100px;
-  position: absolute;
-  top: 45px;
-  padding-left: 2px;
-  float: left;
 }
 
 h2 {
   font-family: sans-serif;
   font-style: cursive; 
-  color: gray; 
-  position: absolute;
-  left: 30px;
-  top: 135px;
+  color: gray;
+  margin-top: 0px; 
 }
 
-p#headshot {
-  position: absolute;
-  top: 175px;
-  left: 100px;
+div#headshot {
+  float: left;
+  margin-top: 20px;
 }
 
-p#intro {
+div#description {
+  height: 320px;
+}
+
+section#intro {
   font-size: 25px; 
   color: #515A5A; 
   font-family: sans-serif; 
-  margin-top: 250px;
-  margin-bottom: 300px;
+  float: left;
+  width: 350px;
+  margin-left: 20px;
+  margin-top: 40px;
   text-align: center;
 }
 
 nav#links{
-  position: absolute;
-  top: 100px;
-  right: 200px;
+  padding-top: 30px
 }
 
-* {
-  color: white;
-  font-size: 20px;
-  font-style: bold;
-  font-family: sans-serif;
+.clearfix {
+  clear: both;
+}
+
+img.socialmedia {
+  width: 50px;
+  height: 50px;
 }
 
 hr {
-  color: #ffffff;
-  border-width: 5px;
-  margin-bottom: 0;
-  margin-top: 10;
+  border: 5px solid #f2f2f2;
 }
-
