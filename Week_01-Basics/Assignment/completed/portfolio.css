@@ -1,6 +1,6 @@
 body {
   background-color: #ff6666;
-  font-family: serif;
+  font-family: sans-serif;
   line-height: 1.5;
   margin: 30px;
   border-bottom: 6px solid #ffffcc;
@@ -31,7 +31,7 @@ h1{
 h2 {
   text-align: center;
   color: #ffffcc;
-  font-family: Georgia, serif;
+  font-family: sans-serif;
   margin-top: 0;
   margin-bottom: 27px;
 }
