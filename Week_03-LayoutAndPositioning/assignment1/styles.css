@@ -25,7 +25,8 @@ main {
 }
 
 .mybutton {
-  background color: #d9b3ff /* light purple */
+  /* light purple */
+  background color: #d9b3ff;
   border: none;
   color: #ffffff;
   text-align: center;
@@ -37,29 +38,41 @@ main {
   border-radius: 10px;
 }
 
+footer {
+    padding: 16px;
+}
+
+
+footer nav a {
+    display: block;
+    background-color: #007700;
+    color: #EEEEEE;
+    padding: 16px;
+    border-radius: 10px;
+    min-width: 100px;
+    text-align: center;
+    text-decoration: none;
+}
+
 footer nav a:hover {
-  background-color: #d9b3ff;
+    background-color: #00AA00;
 }
 
 a#navprevious {
-  float: left;
+    float: left;
 }
 
 a#navhome {
-  width: 1%;
-  margin-left: auto;
-  margin-right: auto;
+    width: 1%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a#navnext {
-  float: right;
+    float: right;
 }
 
-form {
-  margin-left: 240px;
-  margin-top: 20px;
-  margin-left: 240px;
-  margin-bottom: 0px
-  border: 5px solid black;
-  border-radius: 10px;
+.clearfix {
+    clear: both;
 }
+
