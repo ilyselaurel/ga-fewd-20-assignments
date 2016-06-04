@@ -5,19 +5,53 @@
 */
 
 .segment {
-    border: 2px solid #FF0000;
-    width: 50%;
-    margin-bottom: 20px;
-    padding: 20px;
+  border: 2px solid #FF0000;
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 /* SEGMENT 1 */
 #segment1 a {
-    background-color: #00FF00;
+  background-color: #00FF00;
 }
 
 /* SEGMENT 2 */
 #segment2 a {
-    background-color: #00FF00;
+  background-color: #00FF00;
 }
 
+/* SEGMENT 3 */
+#segment3 > p > a {
+  background-color: #00FF00;
+}
+
+/* SEGMENT 4 */
+#segment4 > a {
+   background-color: #00FF00; 
+}
+
+/* SEGMENT 5 */
+#segment5 > p a:first-child {
+  background-color: #00FF00;
+}
+
+/* SEGMENT 6 */
+#segment6 > .stuff2 a {
+  background-color: #00FF00;
+}
+
+/* SEGMENT 7 */
+#segment7 #para2 a {
+  background-color: #00FF00;
+}
+
+/* SEGMENT */
+#segment8 article:last-child a:last-child {
+  background-color: #00FF00;
+}
+
+/* SEGMENT */
+#segment9  article:nth-child(2n+0) a:nth-child(2n+0) {
+  background-color: #00FF00;
+  }
