@@ -55,3 +55,6 @@
 #segment9  article:nth-child(2n+0) a:nth-child(2n+0) {
   background-color: #00FF00;
   }
+
+
+#segment2 > p > a

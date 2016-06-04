@@ -4,11 +4,19 @@
   background-color: #ED3689;
   border: 5px solid #000000;
   margin-bottom: 20px;
+  width: 30%;
+  height: 20%;
+  margin-right: 50px;
+  font-style: cursive;
+  border-width: 20px;
+  border: 50px;
 }
 
 .inlineelm {
   color: #37E637;
   font-weight: bold;
+  margin-left: 3000px;
+  width: 20;
 }
 
 
