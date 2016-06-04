@@ -1,0 +1,105 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 8px
+  margin-bottom: 8px;
+}
+
+header {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Sans-serif;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  width: 80%;
+  max-width: 1024px;
+}
+
+footer {
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+
+footer nav a {
+  display: block;
+  background-color: #d9b3ff;
+  color: #EEEEEE;
+  padding: 16px;    
+  border-radius: 10px;
+  min-width: 100px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+footer nav a:hover {
+  background-color: #cc33ff; 
+}
+
+a#navprevious {
+  float: left;
+}
+
+a#navhome {
+  width: 1%;
+  margin-left: auto;    
+  margin-right: auto;
+}
+
+a#navnext {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+p {
+  width: 400px;
+  font-size: 20px;
+  margin-left:20px;
+}
+
+img {
+  width: 350px;
+  height: 205px;
+}
+
+img.carl {
+  float: right;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+#topbox {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+img.booboo {
+  float: left;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+#bottom1 {
+  float: right;
+  margin-right: 20px;
+}
+
+#bottom2 { 
+  float: right;
+  margin-right: 20px;
+}
