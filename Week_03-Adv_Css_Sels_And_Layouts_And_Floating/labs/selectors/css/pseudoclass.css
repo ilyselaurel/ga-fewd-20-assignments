@@ -1,7 +1,45 @@
 
-/** CSS RULES GO IN HERE */
 
+a {
+  font-size: 100px;
+  font-family: Impact;
+}
 
+section {
+  text-align: center;
+}
 
+#linkone {
+  float: right;
+  margin-right: 100px;
+  text-decoration: none;
+  background-color: #d9b3ff;
+  color: #EEEEEE;
+}
 
+#linktwo {
+  float: left;
+  margin-left: 80px;
+  text-decoration: none;
+  background-color: #d9b3ff;
+  color: #EEEEEE;
+}
+
+a:hover {
+  color: #e5ff7f !important;
+}
+
+article.myarticle:first-child {
+  background-color: #e5ff7f;
+}
+
+article.myarticle:last-child{
+  background-color: #ff93db;
+}
+
+#articles {
+  font-family: Sans-serif;
+  font-size: 30px;
+  float: bottom;
+}
 

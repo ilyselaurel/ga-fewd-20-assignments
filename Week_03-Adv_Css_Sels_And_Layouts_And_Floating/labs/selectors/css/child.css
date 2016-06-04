@@ -1,7 +1,22 @@
+section > div > p > a {
+  background-color: #37C47B;
+  top-margin: 40px;
+}
 
-/** CSS RULES GO IN HERE */
+section > div a {
+  background-color: #37C47B;
+  color: #FFFFFF;
+  border: 10px;
+  border-radius: 5px;
+  font-size: 50px;
+  font-family: Sans-serif;
+  text-decoration: none;
+  border-style: double;
+}
 
-
-
-
-
+section p > a.mylink {
+  background-color: #37C47B;
+  border-style: double;
+  float: right;
+  margin-right: 900px;
+}

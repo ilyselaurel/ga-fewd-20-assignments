@@ -1,7 +1,33 @@
+section p#paral.link1 a {
+  color: #aaeaca;
+  float: left;
+}
 
-/** CSS RULES GO IN HERE */
+section p#para2.link2 a {
+  color: #aaeaca;
+  width: 1%;
+  margin-left: auto;
+  margin-right: auto;
 
+}
 
+section p#para3.link3  a {
+  color: #aaeaca;
+  float: right;
+}
 
+section a:hover {
+  font-weight: bold;
+  color: #6c8271;
+}
 
-
+section {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  width: 80%;
+  max-width: 1024px;
+  font-size: 45px;
+  font-family: sans-serif;
+}
