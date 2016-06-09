@@ -31,7 +31,6 @@ footer {
   padding: 16px;
 }
 
-
 footer nav a {
   display: block;
   background-color: #d9b3ff;
@@ -90,7 +89,7 @@ img.carl {
 
 img.booboo {
   float: left;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-left: 20px;
 }
 
@@ -102,4 +101,15 @@ img.booboo {
 #bottom2 { 
   float: right;
   margin-right: 20px;
+}
+
+#bottombox {
+  border: 5px solid black;
+  border-radius: 10px; 
+}
+
+div.Golden {
+  float: left;
+  width: 400px;
+  display: block;
 }

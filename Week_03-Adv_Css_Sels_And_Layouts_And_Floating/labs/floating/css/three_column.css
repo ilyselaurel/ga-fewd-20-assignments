@@ -4,11 +4,14 @@ section#mycontent > article {
   width: 200px;
   border: 2px solid #0088FF;
   background-color: #FFFF00;
+  margin: 20px;
 }
 
 p#othertext {
-    background-color: #CCCCCC;
+  background-color: #CCCCCC;
 }
 
-
+.clearit {
+  clear: both;
+}
 
