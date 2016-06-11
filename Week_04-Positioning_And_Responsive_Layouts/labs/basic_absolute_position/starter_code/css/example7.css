@@ -19,6 +19,12 @@ body {
 }
 
 #box {
-  /* RULES GO HERE */
+  background-color: #F0F0F0;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
 }
 
