@@ -2,6 +2,65 @@ body {
   background-color: black;
 }
 
-#circle1 {
+.planets {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
 
+
+#circle1 {
+  background-color: #ac516e;
+  height: 650px;
+  width: 650px;
+  z-index: 1;
+}
+
+#circle2 {
+  background-color: #fbd7d3;
+  height: 200px;
+  width: 200px;
+  z-index: 2;
+}
+
+#circle3 {
+  background-color: #fafafa;
+  height: 125px;
+  width: 123px;
+  z-index: 3;
+}
+
+#circle4 {
+  background-color: #bb3344;
+  height: 250px;
+  width: 250px;
+  z-index: 4;
+}
+
+#circle5 {
+  background-color: #cb213d;
+  height: 200px;
+  width: 200px;
+  z-index: 5;
+}
+
+#circle6 {
+  background-color: #ff014e;
+  height: 100px;
+  width: 100px;
+  z-index: 6;
+}
+
+#circle7 {
+  background-color: #7c858b;
+  height: 70px;
+  width: 70px;
+  z-index: 7;
+}
+
+#circle8 {
+  background-color: #eec6a5;
+  height: 50px;
+  width: 50px;
+  z-index: 8;
 }
