@@ -1,11 +1,17 @@
 body {
   background-color: black;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
 }
 
 .planets {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 50%;
+  left: 50%;
+  height: 500px;
+  width: 500px;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -14,45 +20,52 @@ body {
   height: 650px;
   width: 650px;
   z-index: 1;
+
 }
 
 #circle2 {
   background-color: #fbd7d3;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   z-index: 2;
 }
 
 #circle3 {
   background-color: #fafafa;
-  height: 125px;
-  width: 123px;
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 100px;
   z-index: 3;
 }
 
 #circle4 {
-  background-color: #bb3344;
+  background-color: #ffccff;
   height: 250px;
   width: 250px;
   z-index: 4;
 }
 
 #circle5 {
-  background-color: #cb213d;
+  background-color: #cccccc;
   height: 200px;
   width: 200px;
   z-index: 5;
 }
 
 #circle6 {
-  background-color: #ff014e;
+  background-color: #ff9999;
   height: 100px;
   width: 100px;
   z-index: 6;
 }
 
 #circle7 {
-  background-color: #7c858b;
+  background-color: #ff6699;
   height: 70px;
   width: 70px;
   z-index: 7;
