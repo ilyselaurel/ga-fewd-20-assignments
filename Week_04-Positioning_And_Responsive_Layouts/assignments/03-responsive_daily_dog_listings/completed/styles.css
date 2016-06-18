@@ -1,0 +1,142 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 8px
+  margin-bottom: 8px;
+}
+
+header {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Sans-serif;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  width: 80%;
+  max-width: 1024px;
+}
+
+footer {
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+footer nav a {
+  display: block;
+  background-color: #d9b3ff;
+  color: #EEEEEE;
+  padding: 16px;    
+  border-radius: 10px;
+  min-width: 100px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+footer nav a:hover {
+  background-color: #cc33ff; 
+}
+
+a#navprevious {
+  float: left;
+}
+
+a#navhome {
+  width: 1%;
+  margin-left: auto;    
+  margin-right: auto;
+}
+
+a#navnext {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+p {
+  width: 400px;
+  font-size: 20px;
+  margin-left:20px;
+}
+
+img {
+  width: 350px;
+  height: 205px;
+}
+
+img.carl {
+  float: right;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+#topbox {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+img.booboo {
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#bottom1 {
+  float: right;
+  margin-right: 20px;
+}
+
+#bottom2 { 
+  float: right;
+  margin-right: 20px;
+}
+
+#bottombox {
+  border: 5px solid black;
+  border-radius: 10px; 
+}
+
+div.Golden {
+  float: left;
+  width: 400px;
+  display: block;
+}
+
+@media only screen 
+    and (min-device-width : 375px) // or 213.4375em or 3in or 9cm
+    and (max-device-width : 667px) // or 41.6875em
+    and (width : 667px) // or 41.6875em
+    and (height : 375px) // or 23.4375em
+    and (orientation : landscape) 
+    and (color : 8)
+    and (device-aspect-ratio : 375/667)
+    and (aspect-ratio : 667/375)
+    and (device-pixel-ratio : 2)
+    and (-webkit-min-device-pixel-ratio : 2)
+{ }
+
+@media only screen 
+    and (min-device-width : 375px) // or 213.4375em
+    and (max-device-width : 667px) // or 41.6875em
+    and (width : 375px) // or 23.4375em
+    and (height : 559px) // or 34.9375em
+    and (orientation : portrait) 
+    and (color : 8)
+    and (device-aspect-ratio : 375/667)
+    and (aspect-ratio : 375/559)
+    and (device-pixel-ratio : 2)
+    and (-webkit-min-device-pixel-ratio : 2)
+{ }
+
