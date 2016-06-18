@@ -1,0 +1,93 @@
+body {
+  background-color: #ff6666;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 30px;
+  border-bottom: 6px solid #ffffcc;
+  border-top: 6px solid #ffffcc;
+  padding: 50px;
+}
+
+strong{
+  color: #ffffff;
+  font-style: italic;
+  font-weight: bold;
+}
+
+a{
+  color: #ffffff;
+  font-style: italic;
+}
+
+h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #ffcccc;
+  margin-top: 0;
+  border-bottom: 2px solid #ffcccc;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffcc;
+  font-family: sans-serif;
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #222222;
+  margin: 30px 0;
+}
+
+nav{
+  color: #ffffcc;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  color: #ffcccc;
+  font-size: 28px;
+}
+
+ul {
+  color: #ffffcc;
+}
+
+h4 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+h2 {
+  border-bottom: 2px solid #ffcccc;
+}
+
+@media only screen 
+    and (min-device-width : 375px) // or 213.4375em
+    and (max-device-width : 667px) // or 41.6875em
+    and (width : 375px) // or 23.4375em
+    and (height : 559px) // or 34.9375em
+    and (orientation : portrait) 
+    and (color : 8)
+    and (device-aspect-ratio : 375/667)
+    and (aspect-ratio : 375/559)
+    and (device-pixel-ratio : 2)
+    and (-webkit-min-device-pixel-ratio : 2)
+{ }
+
+@media only screen 
+    and (min-device-width : 375px) // or 213.4375em
+    and (max-device-width : 667px) // or 41.6875em
+    and (width : 375px) // or 23.4375em
+    and (height : 559px) // or 34.9375em
+    and (orientation : portrait) 
+    and (color : 8)
+    and (device-aspect-ratio : 375/667)
+    and (aspect-ratio : 375/559)
+    and (device-pixel-ratio : 2)
+    and (-webkit-min-device-pixel-ratio : 2)
+{ }
