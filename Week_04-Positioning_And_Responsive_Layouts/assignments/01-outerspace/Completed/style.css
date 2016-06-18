@@ -5,75 +5,108 @@ body {
   height: 100%;
 }
 
-.planets {
+#solarsystem {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 500px;
   width: 500px;
+  height: 500px;
   transform: translate(-50%, -50%);
 }
 
-
-#circle1 {
-  background-color: #ac516e;
-  height: 650px;
-  width: 650px;
-  z-index: 1;
-
-}
-
-#circle2 {
-  background-color: #fbd7d3;
-  height: 100px;
-  width: 100px;
+#solarsystem > #sun {
+  background-color: #A0273D;
+  background-image: radial-gradient(circle at 100px 100px);
+  border-radius: 100%;
   position: absolute;
   top: 0px;
   left: 0px;
-  z-index: 2;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
 }
 
-#circle3 {
-  background-color: #fafafa;
-  height: 200px;
-  width: 100px;
+#solarsystem > #axis {
+  width: 1px;
+  height: 140%;
+  border: 1px dotted #36915C;
   position: absolute;
-  top: 0px;
-  left: 100px;
-  z-index: 3;
+  top: -20%;
+  left: 50%;
+  z-index: 1;
+  transform: rotate(16deg);
 }
 
-#circle4 {
-  background-color: #ffccff;
-  height: 250px;
-  width: 250px;
-  z-index: 4;
+#solarsystem > .planets {
+  border-radius: 100%;
+  position: absolute;
 }
 
-#circle5 {
-  background-color: #cccccc;
-  height: 200px;
-  width: 200px;
-  z-index: 5;
+#solarsystem  > #circle2 {
+  background-color: #913668;
+  background-image: radial-gradient(circle at 0px 0px);
+  top: 100px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
 }
 
-#circle6 {
-  background-color: #ff9999;
-  height: 100px;
+#solarsystem  > #circle3 {
+  background-color: #B4136C;
+  top: 80px;
+  left: -200px;
+  width: 60px;
+  height: 60px;
+  z-index: 100;
+}
+
+#solarsystem  > #circle4 {
+  background-color: #FA5CB3;
+  background-image: radial-gradient(circle at 10px 10px);
+  top: 200px;
+  left: -140px;
   width: 100px;
-  z-index: 6;
+  height: 100px;
+  z-index: 100;
 }
 
-#circle7 {
+#solarsystem  > #circle5 {
+  background-color: #FD63F0;
+  background-image: radial-gradient(circle at 20px 20px);
+  top: 280px;
+  left: 120px;
+  width: 140px;
+  height: 140px;
+  z-index: 100;
+}
+
+#solarsystem  > #circle6 {
+  background-color: #ff9999;
+  background-image: radial-gradient(circle at -120px 20px);
+  top: 310px;
+  right: -40px;
+  width: 100px;
+  height: 100px;
+  z-index: 100;
+}
+
+#solarsystem  > #circle7 {
   background-color: #ff6699;
-  height: 70px;
-  width: 70px;
-  z-index: 7;
+  background-image: radial-gradient(circle at -200px 20px);
+  top: 260px;
+  right: -200px;
+  width: 80px;
+  height: 80px;
+  z-index: 100;
 }
 
-#circle8 {
+#solarsystem > #circle8 {
   background-color: #eec6a5;
-  height: 50px;
-  width: 50px;
-  z-index: 8;
+  background-image: radial-gradient(circle at -200px 20px);
+  top: 220px;
+  right: -40px;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
 }
