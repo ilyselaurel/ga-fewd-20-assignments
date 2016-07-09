@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML Forms</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body>
+  <form>
+  <fieldset>
+    <label for="username">Username</label>
+    <input id="username" 
+           name="username"
+           minlength="3"
+           maxlength="6"
+           type-="text" 
+           value="johndoe" 
+           placeholder="Enter your username" 
+           readonly="readonly"/>
+  </fieldset>
+  
+  <fieldset>
+    <label for="password">Password</label>
+    <input id="password"
+           type="password" 
+           value="123456" 
+           placeholder="Enter your password"
+           required="required" />
+   </fieldset>
+   <fieldset>
+    <label for="bio">Bio</label>
+    <textarea id="bio" name="bio" placeholder="Enter a bio">Hi! my name is blah!</textarea>
+   </fieldset>
+   <fieldset>
+    <label for="animal">Favorite animal</label>
+    <select id="animal" name="animal" size="4" multiple="multiple">
+      <optgroup label="Dogs">
+        <option value="Golden Doodle">Golden Doodle</option>
+        <option value="Huskey" 
+                selected="selected">Huskey</option>
+      </optgroup>
+      <optgroup label="Cats">
+        <option value="Black Cat">Black Cat</option>
+        <option value="White Cat">White Cat</option>
+      </optgroup>
+    </select>
+    </fieldset>
+   
+    <fieldset>
+    <label for="checkbox">Checkbox</label>
+    <input type="checkbox" 
+           id="newsletter" 
+           name="newsletter"
+           checked="checked" />
+    </fieldset>
+    <fieldset>
+    <label for="favorite food">Favorite Food<label>
+    </fieldset>
+    
+    <fieldset>
+    <label for="pizza">Pizza</label>
+    <input type="radio" 
+           id="food_pizza"
+           name="food"
+           value="pizza" />
+    
+    
+    <label for="burrito">Burrito</label>
+    <input type="radio" 
+           id="food_burritos"
+           name="food"
+           value="burritos" />
+   
+    
+    <label for="tofu">tofu</label>
+    <input type="radio" 
+           id="food_tofu"
+           name="food"
+           value="tofu" />
+    </fieldset>
+
+    <fieldset>
+    <label for="age">Age</label>
+    <input type="number" 
+           min="5"
+           max="20"
+           placeholder="Enter your age"
+           id="age"
+           name="age" />
+    </fieldset>
+
+    <fieldset>
+    <label for="birthday">Birthday</label>
+    <input id="birthday"
+           name="birthday" 
+           type="datetime-local" />
+    </fieldset>
+    <fieldset>
+    <label for="favorite color">Favorite Color</label>
+    <input id="favoritecolor" name="favoritecolor" type="color"/>
+    <input type="submit" value="Create Account" />
+    </fieldset>
+  
+  </form>
+  </body>
+</html>
