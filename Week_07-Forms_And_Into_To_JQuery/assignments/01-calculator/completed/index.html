@@ -12,13 +12,36 @@
   </head>
   <body>
   <h1>Calculator</h1>
-  <form>
-  <input id="1st"
+    <form id="Calculator">
+      <input id="1st"
          name="1st"
          minlength="0"
          maxleng="1000000000"
          placeholder="Enter 1st number" />
-  <input id
+    </form>
+  
+  <select id="operation" name="operation" required>
+    <option value="plus">Plus</option>
+    <option value="minus">Minus</option>
+  </select>
+    <form>
+       <input id="2nd"
+         type="number"
+         name="2nd"
+         minlength="0"
+         placeholder="Enter 2nd number" 
+         required/>
+      </form>
+       <input type="button"
+         value="Equals" />
+
+       <input id="Answer"
+        type="number"
+        name="Answer"
+        minlength="0"
+        placeholder="Answer"
+        required />
+    </form>
 
   </body>
 </html>
