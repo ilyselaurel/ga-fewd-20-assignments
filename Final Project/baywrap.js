@@ -7,4 +7,3 @@ $(function(){
 		height: 528
 	});
 });
-*/
