@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-  background-color: #FFFFFF;
+  background-color: #FFFFCC;
   height: 220px;
   width: 100%;
   border-bottom: solid black 3px;
@@ -49,9 +49,9 @@ a:hover {
 img#logo {
   display: block;
   height: 210px;
-  width: 150px;
+  width: 200px;
   float: left;
-  margin-left: 350px;
+  margin-left: 300px;
 }
 
 .clearit {
