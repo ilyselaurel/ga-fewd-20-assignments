@@ -61,4 +61,6 @@ $group.animate( {left: animateLeft}, function() {
     buttonArray.push($button);      
   });
 
-  advance();   
+  advance(); 
+
+  })  

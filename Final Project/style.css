@@ -115,6 +115,20 @@ slide-viewer {
   display: block;
 }
 
+.slide-buttons {
+  text-align: center;}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 200%;
+  line-height: 0.5em;}
+
+.slide-btn.active, .slide-btn:hover {
+  color: #ed8e6c;
+  cursor: pointer;}
+
 footer {
    position: fixed;
    bottom:0;
