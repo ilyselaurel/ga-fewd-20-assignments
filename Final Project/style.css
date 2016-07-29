@@ -9,6 +9,7 @@ html body {
 
 body {
   padding-top: 220px;
+  padding: 30px;
 }
 
 nav {
@@ -20,6 +21,7 @@ nav {
   top: 0px;
   left: 0px;
   z-index: 1000;
+  right: 0px;
 }
 
 .main-nav {
@@ -69,6 +71,7 @@ h1 {
   font-size: 60px;
   float: right;
   margin-right: 100px;
+  padding: 0px 0 0 0;
 }
 
 main p {
@@ -80,27 +83,51 @@ div#name {
   display: block;
   margin-left: 100px;
   margin-right: 10px;
+  height: 100px;
   text-align: center;
 }
 
-img#pyramid {
-  display: block;
-  height: 520px;px;
-  width: 750px;
-  position: absolute;
-  margin-bottom: 100px;
+.slider{
+  max-width: 940px;
+  margin: 0px auto 30px auto;
 }
 
-#slides {
+slide-viewer {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+
+.slide-group {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
   display: none;
+  position: absolute;
 }
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
+.slide:first-child {
+  display: block;
+}
+
+footer {
+   position: fixed;
+   bottom:0;
+   left: 0px;
+   width:100%;
+   height:80px; 
+   background:#ffffff;
+   border-top: solid black 3px;
+}
+
+a img {
+  width: 70px;
+  height: 70px;
+  margin-top: 5px;
+  margin-left: 30px;
 }

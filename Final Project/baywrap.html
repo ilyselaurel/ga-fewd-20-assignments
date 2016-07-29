@@ -1,20 +1,27 @@
-<!doctype htlm>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
     <title>Bay Wrap</title>
     <link rel="stylesheet" href="./style.css" />
+    
     <script
       src="https://code.jquery.com/jquery-3.1.0.min.js"
       integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
       crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./baywrap.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Raleway|Diplomata|Indie+Flower' rel='stylesheet' type='text/css'>
-    <style></style>
+    <script 
+      type="text/javascript" 
+      src="./baywrap.js"></script>
+    <link 
+    href='https://fonts.googleapis.com/css?family=Raleway|Diplomata|Indie+Flower' 
+    rel='stylesheet' 
+    type='text/css' />
   </head>
+  
   <body>
     <nav>
-      <header>
+      <div id="container">
+        <header>
         <ul class="main-nav">
           <li><span><a href="">Home</a></span></li>
           <li><span><a href="">About</a></span></li>
@@ -23,23 +30,37 @@
           <li><a href="">Contact</a></li>
         </ul>
           <img src="./photos/baywrap_logo.png" id="logo" title="logo" alt="boating"/>
-        <div class="cearit"></div>
+         <div class="cearit"></div>
        <div id="name"><h1>Bay Wrap</h1></div>
-    </nav>
-      </header>  
-        <main>
-           <img src="./photos/wraps.jpg" id="pyramid" title="selections" alt="food"/>
-        
-      <div id="slides">
-        <img src="./photos/wraps.jpg"/>
-        <img src="./photos/baywrap.jpg"/>
-        <img src="./photos/salad.jpg"/>
-        <img src="./photos/coffee.jpg"/>
-        <img src="./photos/salmon.jpg"/>
-        <img src="./photos/eggplant.jpg"/>
+      </nav>
+         </header> 
+
+    <section>
+      <div class="slider"> 
+      <div class="slide-viewer">
+      <div class="slide-group">
+        <div class="slide slide-1"><img src="./photos/wraps.jpg" alt="pyramid" /></div>
+        <div class="slide slide-2"><img src="./photos/baywrap.jpg" alt="name"/></div>
+        <div class="slide slide-3"><img src="./photos/salad.jpg" alt="greens" /></div>
+        <div class="slide slide-4"><img src="./photos/coffee.jpg" alt="cafe" /></div>
+        <div class="slide slide-5"><img src="./photos/salmon.jpg"/></div>
+        <div class="slide slide-6"><img src="./photos/eggplant.jpg" alt="veggie" /></div>
+      </div>
+      </div>
+      </div>
+      <div class="slide-buttons"></div>
      </div>
-    <div class="footer">Follow Us</strong>.</div>
-        </main> 
+       </section>
+
+    <footer>
+      
+      <div class="inner-container">
+
+          <a href="https://www.facebook.com/Bay-Wrap-118404629495/"><img class="socialmedia" src="./photos/facebook.png"</a>
+        
+          <a href="https://www.instagram.com/baywrapbelfast/?hl=en"><img class="socialmedia" src="./photos/instagram.png"</a>
+      </div>
+    </footer>
   </body>
 </html>
 
