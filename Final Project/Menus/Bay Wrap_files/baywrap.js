@@ -1,4 +1,4 @@
-/*
+
 "use strict";
 
 $('.slider').each(function() {              

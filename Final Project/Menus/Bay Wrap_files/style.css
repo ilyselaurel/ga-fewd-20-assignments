@@ -74,23 +74,7 @@ h1 {
   padding: 0px 0 0 0;
 }
 
-h2 {
- font-family: sans-serif;
- text-transform: uppercase;
- font-style: bold;
- font-size: 50px;
- position: fixed;
- margin-right: 300px;
- margin-top: 150px;
-}
 
-p {
-  position: fixed;
-  margin-right: 100px;
-  font-size: 30px;
-  margin-top: 300px;
-  width: 700px;
-}
 
 div#name {
   display: block;
@@ -99,7 +83,7 @@ div#name {
   height: 100px;
   text-align: center;
 }
-/*
+
 .slider{
   max-width: 940px;
   
@@ -142,7 +126,6 @@ slide-viewer {
 .slide-btn.active, .slide-btn:hover {
   color: #ed8e6c;
   cursor: pointer;}
-  */
 
 footer {
    position: fixed;
@@ -152,14 +135,6 @@ footer {
    height:80px; 
    background:#ffffff;
    border-top: solid black 3px;
-}
-
-#content {
-  font-family: sans-serif;
-  font-style: cursive, bold;
-  font-size: 20px;
-  position: fixed;
-  margin-top: 100px;
 }
 
 a img {
